@@ -192,7 +192,7 @@ header a{
 
 .footer{
     background-color: rgb(95,95,95);
-    font-size: 4vw;
+    font-size: 3.5vw;
     height: 35vh;
     padding: 5.5vh 0 0 6.5vw;
     margin-top: 4vh;
@@ -210,8 +210,31 @@ header a{
 }
 
 .footer a{
-    color: white;
+    color: rgb(201, 201, 201);
     text-decoration: none;
+    font-size: 3vw;
+}
+
+@media(min-width: 425px){
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", gill sans;
+}
+
+h1{
+    font-size: 8.470588235294118;
+}
+
+h2{
+    font-size: 5.647058823529412vw;
+}
+
+header p{
+    font-size: 4.941176470588235vw;
+}
 }
 
 @media(min-width: 768px){
@@ -223,15 +246,15 @@ header a{
 }
 
 h1{
-    font-size: 7.03125vw;
-}
-
-h2{
     font-size: 4.6875vw;
 }
 
+h2{
+    font-size: 3.125vw;
+}
+
 header p{
-    font-size: 4vw;
+    font-size: 2.734375vw;
 }
 
 header ul{
@@ -249,7 +272,7 @@ header a{
     text-decoration: none;
     color: white;
     font-family: Roboto;
-    font-size: 3vw;
+    font-size: 2.734375vw;
 }
 
 .my-portfolio{
@@ -359,8 +382,8 @@ header a{
 }
 
 .form-container{
-    margin-left: 6.25vw;
-    margin-right: 6.25vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .form-container h2{
@@ -395,8 +418,8 @@ header a{
 }
 
 .map{
-    width: 87.5%;
-    height: 87.5%;
+    width: 94%;
+    height: 94%;
     position: static;
 }
 
@@ -407,9 +430,9 @@ header a{
 
 .footer{
     background-color: rgb(95,95,95);
-    font-size: 3vw;
+    font-size: 2vw;
     height: 35vh;
-    padding: 5.5vh 0 0 6.25vw;
+    padding: 5.5vh 0 0 3vw;
     margin-top: 4vh;
 }
 
@@ -426,11 +449,221 @@ header a{
 .footer a{
     color: white;
     text-decoration: none;
+    font-size: 1.5vw;
 }
 
 }
 
-@media(min-width: 1024px)
+@media(min-width: 1024px){
+    
+
+h1{
+    font-size: 3.515625vw;
+}
+
+h2{
+    font-size: 2.34375vw;
+}
+
+header p{
+    font-size: 2.34375vw;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgb(95,95,95);
+    word-spacing: 1.25vw;
+}
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 2.019230769230769vw;
+}
+
+.my-portfolio{
+    text-align: center;
+}
+
+.portfolio-container{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.my-portfolio h2{
+    margin-bottom: 4vh;
+}
+
+
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 16vw 0 16vw;
+    font-size: 2.019230769230769vw;
+    text-align: center;
+}
+
+#prices h2{
+    margin: 4vh 0 4vh 0;
+    text-align: center;
+}
+
+.pricing-card-header{
+    background-color: blue;
+    padding: 2vw;
+    font-size: 3.4615384615384617vw;
+    color: white;
+}
+
+.pricing-card{
+    width: 20vw;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+    font-size: 2.019230769230769vw;
+}
+
+.pricing-card:hover{
+    transform: scale(1.02)
+}
+
+.pricing-card-body{
+    height: 22vw;
+    background-color: rgb(238, 238, 238);
+    font-size: 2.019230769230769vw;
+}
+
+.pricing-card-button{
+    padding: 1.5vw;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+.pricing-card-button:hover{
+    transform: scale(1.02);
+}
+
+.pricing-card-body ul{
+    padding-top: 2vh;
+    list-style: none;
+}
+
+.testimonials-heading{
+    text-align: center;
+    margin: 4vh 0 4vh 0;
+}
+    
+.testimonials-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 16vw;
+    margin-right: 16vw;
+}
+
+.testimonial-card{
+    width: 30vw; 
+    text-align: center;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.testimonial-card img{
+    height: 30vw;
+}
+
+.testimonial-body{
+    background-color: rgb(238, 238, 238);
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial-body p{
+    padding: 1vw;
+    font-size: 1.7vw;
+}
+
+.form-container{
+    margin-left: 16vw;
+    margin-right: 16vw;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    border: solid 1px black;
+    padding: 2.1875vw;
+    margin-bottom: 2vh;
+}
+
+.button-form{
+    background-color: blue;
+    color: white;
+}
+
+.button-form:hover{
+    transform: scale(1.02);
+}
+
+.map-container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map{
+    width: 68%;
+    height: 68%;
+    position: static;
+}
+
+.map-container h2{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.footer{
+    background-color: rgb(95,95,95);
+    font-size: 1.6vw;
+    height: 35vh;
+    padding: 5.5vh 0 0 16vw;
+    margin-top: 4vh;
+}
+
+.footer ul{
+    list-style: none;
+    word-spacing: 1.5625vw;
+}
+
+.footer li{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.footer a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+}
 
 
 
