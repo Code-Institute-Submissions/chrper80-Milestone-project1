@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
+
+*{
     border: 0;
     padding: 0;
     margin: 0;
@@ -8,9 +9,429 @@ body{
 }
 
 h1{
-    font-size: 2.8125vw;
+    font-size: 11.25vw;
 }
 
 h2{
-    font-size: 1.875vw;
+    font-size: 7.5vw;
 }
+
+header{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 2vh;
+}
+
+header p{
+    font-size: 6.25vw;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgb(95,95,95);
+    word-spacing: 1.25vw;
+}
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 5vw;
+}
+
+.my-portfolio{
+    text-align: center;
+}
+
+.my-portfolio h2{
+    margin-bottom: 2vh;
+}
+
+.pricing-cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 7.5vw;
+    text-align: center;
+}
+
+#prices h2{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.pricing-card-header{
+    background-color: blue;
+    padding: 3.125vw;
+    font-size: 11.25vw;
+    color: white;
+}
+
+.pricing-card{
+    width: 87.5vw;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+    font-size: 6vw;
+}
+
+.pricing-card:hover{
+    transform: scale(1.02)
+}
+
+.pricing-card-body{
+    height: 62vw;
+    background-color: rgb(238, 238, 238);
+}
+
+.pricing-card-button{
+    padding: 3.125vw;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+.pricing-card-button:hover{
+    transform: scale(1.02);
+}
+
+.pricing-card-body ul{
+    padding-top: 2vh;
+    list-style: none;
+}
+
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-heading{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.testimonial-card{
+    width: 87.5vw; 
+    text-align: center;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.testimonial-card img{
+    height: 87.5vw;
+}
+
+.testimonial-body{
+    background-color: rgb(238, 238, 238);
+    height: 30vw;
+    padding: 1.5625vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial-body p{
+    padding: 3.125vw;
+    font-size: 5vw;
+}
+
+.form-container{
+    margin-left: 6.25vw;
+    margin-right: 6.25vw;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    border: solid 1px black;
+    padding: 2.1875vw;
+    margin-bottom: 2vh;
+}
+
+.button-form{
+    background-color: blue;
+    color: white;
+}
+
+.button-form:hover{
+    transform: scale(1.02);
+}
+
+.map-container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map{
+    width: 87.5%;
+    height: 87.5%;
+    position: static;
+}
+
+.map-container h2{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.footer{
+    background-color: rgb(95,95,95);
+    font-size: 4vw;
+    height: 35vh;
+    padding: 5.5vh 0 0 6.5vw;
+    margin-top: 4vh;
+}
+
+.footer ul{
+    list-style: none;
+    word-spacing: 1.5625vw;
+}
+
+.footer li{
+    display: inline-block;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width: 768px){
+    *{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", gill sans;
+}
+
+h1{
+    font-size: 7.03125vw;
+}
+
+h2{
+    font-size: 4.6875vw;
+}
+
+header p{
+    font-size: 4vw;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgb(95,95,95);
+    word-spacing: 1.25vw;
+}
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 3vw;
+}
+
+.my-portfolio{
+    text-align: center;
+}
+
+.portfolio-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.my-portfolio h2{
+    margin-bottom: 4vh;
+}
+
+
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 3vw 0 3vw;
+    font-size: 3.125vw;
+    text-align: center;
+}
+
+#prices h2{
+    margin: 4vh 0 4vh 0;
+    text-align: center;
+}
+
+.pricing-card-header{
+    background-color: blue;
+    padding: 3.125vw;
+    font-size: 4.5vw;
+    color: white;
+}
+
+.pricing-card{
+    width: 30vw;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+    font-size: 6vw;
+}
+
+.pricing-card:hover{
+    transform: scale(1.02)
+}
+
+.pricing-card-body{
+    height: 31vw;
+    background-color: rgb(238, 238, 238);
+    font-size: 3vw;
+}
+
+.pricing-card-button{
+    padding: 1.5vw;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
+
+.pricing-card-button:hover{
+    transform: scale(1.02);
+}
+
+.pricing-card-body ul{
+    padding-top: 2vh;
+    list-style: none;
+}
+
+.testimonials-heading{
+    text-align: center;
+    margin: 4vh 0 4vh 0;
+}
+    
+.testimonials-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.testimonial-card{
+    width: 45vw; 
+    text-align: center;
+    margin-bottom: 4vh;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.testimonial-card img{
+    height: 45vw;
+}
+
+.testimonial-body{
+    background-color: rgb(238, 238, 238);
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial-body p{
+    padding: 1vw;
+    font-size: 2.734375vw;
+}
+
+.form-container{
+    margin-left: 6.25vw;
+    margin-right: 6.25vw;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    border: solid 1px black;
+    padding: 2.1875vw;
+    margin-bottom: 2vh;
+}
+
+.button-form{
+    background-color: blue;
+    color: white;
+}
+
+.button-form:hover{
+    transform: scale(1.02);
+}
+
+.map-container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map{
+    width: 87.5%;
+    height: 87.5%;
+    position: static;
+}
+
+.map-container h2{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.footer{
+    background-color: rgb(95,95,95);
+    font-size: 3vw;
+    height: 35vh;
+    padding: 5.5vh 0 0 6.25vw;
+    margin-top: 4vh;
+}
+
+.footer ul{
+    list-style: none;
+    word-spacing: 1.5625vw;
+}
+
+.footer li{
+    display: inline-block;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+}
+
+@media(min-width: 1024px)
+
+
+
+
