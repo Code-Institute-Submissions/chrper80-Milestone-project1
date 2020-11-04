@@ -449,7 +449,7 @@ header a:hover{
 
 @media(min-width: 425px){
 
-     h1{
+h1{
     font-size: 37.8px;
 }
 
@@ -675,7 +675,7 @@ header a:hover{
 
 @media(min-width: 600px){
 
-    h1{
+h1{
     font-size: 39.6px;
 }
 
@@ -683,7 +683,7 @@ h2{
     font-size: 26.4px;
 }
 
-    .my-portfolio{
+.my-portfolio{
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 550px;
@@ -694,17 +694,17 @@ h2{
     margin-bottom: 10px;
 }
 
-    .pricing-cards-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 500px;
-        margin: 0 auto;
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
 }
 
-    #prices h2{
+#prices h2{
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
@@ -877,8 +877,6 @@ h2{
 
 @media(min-width: 768px){
 
-    
-
 header{
     background-color: white;
     text-align: center;
@@ -912,7 +910,7 @@ header a:hover{
     color: white;
 }
 
-    .my-portfolio{
+.my-portfolio{
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 550px;
@@ -923,17 +921,17 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-    .pricing-cards-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 650px;
-        margin: 0 auto;
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
 }
 
-    #prices h2{
+#prices h2{
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
@@ -1105,7 +1103,8 @@ header a:hover{
 }
 
 @media(min-width: 1024px){
-    h1{
+
+h1{
     font-size: 41.4px;
 }
 
@@ -1146,7 +1145,7 @@ header a:hover{
     color: white;
 }
 
-    .my-portfolio{
+.my-portfolio{
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 680px;
@@ -1157,17 +1156,17 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-    .pricing-cards-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 820px;
-        margin: 0 auto;
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 820px;
+    margin: 0 auto;
 }
 
-    #prices h2{
+#prices h2{
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
@@ -1346,11 +1345,11 @@ label{
 
 @media(min-width: 1440px){
 
-    body{
-        max-width: 1440px;
-        margin: 0 auto;
-    }
-    h1{
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+h1{
     font-size: 54px;
 }
 
@@ -1395,7 +1394,7 @@ header a:hover{
     color: white;
 }
 
-    .my-portfolio{
+.my-portfolio{
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 750px;
@@ -1407,17 +1406,17 @@ header a:hover{
     margin-top: 30px;
 }
 
-    .pricing-cards-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 1200px;
-        margin: 0 auto;
+.pricing-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-    #prices h2{
+#prices h2{
     margin-top: 35px;
     margin-bottom: 10px;
     text-align: center;
