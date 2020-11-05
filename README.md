@@ -1,4 +1,4 @@
-# Web-site for headshot photography business "Christians Photo"
+# Website for headshot photography business "Christians Photo"
 
 ## Description
 
