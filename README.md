@@ -24,15 +24,15 @@ Within the headshot business, it´s common to use a one-page site.
 
 I have been using the Google Chrome dev tools to make sure the site looks good on different devices. I used the breakpoints in the dev tools and designed the page to be optimized at those and i also looked at what intervals it didn´t look so good in and then added a media querie there.
 
-## Acknowledgement
+## Acknowledgements
 
-The portfolio slider is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
+The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
 
 My mentor [Excellence Ilesanmi](https://github.com/lon-io), has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
 
 I would also like to thank the tutors for their patience with me. They are always helpful and all of them seem to have a great sense of humour!
 
-The people hanging out on Slack has also been very helpful!
+The people hanging out on Slack has also been very helpful.
   
  
 
