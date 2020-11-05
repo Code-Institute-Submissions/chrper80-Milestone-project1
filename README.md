@@ -28,7 +28,7 @@ I have been using the Google Chrome dev tools to make sure the site looks good o
 
 The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
 
-The fine folks at Google has provided the map i use to show the studio location
+The fine folks at Google has provided the map i use to show the studio location.
 
 My mentor [Excellence Ilesanmi](https://github.com/lon-io), has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
 
