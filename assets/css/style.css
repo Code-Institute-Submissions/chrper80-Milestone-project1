@@ -17,14 +17,14 @@ h2{
     color: rgb(95,95,95);
 }
 
-header{
+header{ /*Header*/
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
 }
 
-header p{
+header p{ /*The text under the site heading*/
     font-size: 1.313rem;
 }
 
@@ -35,7 +35,7 @@ header ul{
     word-spacing: 2px;
 }
 
-header li{
+header li{/*The menu items*/
     display: inline-block;
 }
 
@@ -50,7 +50,7 @@ header a:hover{
     color: white;
 }
 
-.my-portfolio{
+.my-portfolio{/*Portfolio*/
     text-align: center;
     margin: 15px auto 0 auto;
     max-width: 400px;
@@ -60,7 +60,7 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-.pricing-cards-container{
+.pricing-cards-container{/*Pricing cards*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ header a:hover{
     list-style: none;
 }
 
-.testimonials-container{
+.testimonials-container{/*Testimonials*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +151,7 @@ header a:hover{
     font-size: 1rem;
 }
 
-.form-container{
+.form-container{/*Contact form*/
     width: 280px;
     margin: 0 auto;
 }
@@ -169,7 +169,7 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-#checkbox{
+#checkbox{/*The checkbox for the consent*/
     display: inline-block;
     width: 50px;
 }
@@ -183,7 +183,7 @@ header a:hover{
     transform: scale(1.02);
 }
 
-.map-container{
+.map-container{/*Map. Copy pasted code from Google maps*/
     text-align: center;
     margin: 0 auto;
 }
@@ -199,7 +199,7 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-.footer{
+.footer{/*Footer*/
     background-color: rgb(95,95,95);
     height: 150px;
     margin: 40px auto 0 auto;
