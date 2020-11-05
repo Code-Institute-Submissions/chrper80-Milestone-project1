@@ -18,8 +18,15 @@ Within the headshot business, it´s common to use a one-page site.
 
 ## Wireframes
 
-[<Link to wireframes made in Adobe XD>](<https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/>)
+[Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
+
+## Acknowledgement
+
+The portfolio slider is just copy pasted from Bootstrap. They make really nice things!
+My mentor Excellence Ilesanmi, has done a great job in helping me in a good way. The mentoring sessions has been really helpful.
+I would also like to thank the tutors for their patience with me. They are always helpful and all of them seem to have a great sense of humour!
+The people hanging out on Slack has also been very helpful.
   
-  Follow this link to look at my wireframes. 
+ 
 
 
