@@ -1,4 +1,4 @@
-# Web-site for photography headshot business "Christians Photo"
+# Web-site for headshot photography business "Christians Photo"
 
 ## Description
 
@@ -20,12 +20,19 @@ Within the headshot business, it´s common to use a one-page site.
 
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
+## Manual testing procedures
+
+I have been using the Google Chrome dev tools to make sure the site looks good on different devices. I used the breakpoints in the dev tools and designed the page to be optimized at those and i also looked at what intervals it didn´t look so good in and then added a media querie there.
+
 ## Acknowledgement
 
-The portfolio slider is just copy pasted from Bootstrap. They make really nice things!
-My mentor Excellence Ilesanmi, has done a great job in helping me in a good way. The mentoring sessions has been really helpful.
+The portfolio slider is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
+
+My mentor Excellence Ilesanmi, has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
+
 I would also like to thank the tutors for their patience with me. They are always helpful and all of them seem to have a great sense of humour!
-The people hanging out on Slack has also been very helpful.
+
+The people hanging out on Slack has also been very helpful!
   
  
 
