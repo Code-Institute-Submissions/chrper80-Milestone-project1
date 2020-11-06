@@ -913,7 +913,7 @@ header a:hover{
 .my-portfolio{
     text-align: center;
     margin: 0 auto 15px auto;
-    max-width: 550px;
+    max-width: 480px;
 
 }
 
@@ -1348,6 +1348,7 @@ label{
 body{
     max-width: 1440px;
     margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(95,95,95,0.2), -5px -5px 5px rgba(95,95,95,0.2);
 }
 h1{
     font-size: 54px;
