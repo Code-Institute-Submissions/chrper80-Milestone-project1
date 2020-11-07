@@ -1,5 +1,7 @@
 # Website for headshot photography business "Christians Photo"
 
+![A responsive collection](assets/images/responsive.png)
+
 ## About
 
 ### The idea
@@ -11,8 +13,6 @@ For my **first milestone project** i wanted to make a website that i can use for
 The business is a small one, just me. The people that would be interested in my services are actors, professionals with a LinkedIn profile, writers, journalists and maybe even people active on dating sites. For example, an actor need to showcase him/her when applying for jobs, so they need good headshots. 
 
 ## Wireframes
-
-![A responsive collection of screens](assets/images/responsive.png)
 
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
