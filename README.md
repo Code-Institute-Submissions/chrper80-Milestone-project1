@@ -1,20 +1,14 @@
 # Website for headshot photography business "Christians Photo"
 
-## Description
+## About
 
-For my **first milestone project** i wanted to make a website that i can use for my **headshots business**. 
+### The idea
 
-The business is a small one, just me.
+For my **first milestone project** i wanted to make a website that i can use for my **headshots business**. The reason for this is that i have many nice pictures that i can use for free. The images are from my portfolio and the people in there have all given their written permission that i can use the images for portfolio and social media. Within the headshot business, it´s common to use a one-page site. I wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
 
-The images are from my portfolio and the people in there have all given their written permission that i can use the images for portfolio and social media.  
+### The business
 
-The people that would be interested in my services are actors, professionals with a LinkedIn profile, writers, journalists and maybe even people active on dating sites. For example, an actor need to showcase him/her when applying for jobs, so they need good headshots. 
-
-The first thing they look for when coming to the site is the **price** and the **images**. 
-
-I also wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
-
-Within the headshot business, it´s common to use a one-page site.
+The business is a small one, just me. The people that would be interested in my services are actors, professionals with a LinkedIn profile, writers, journalists and maybe even people active on dating sites. For example, an actor need to showcase him/her when applying for jobs, so they need good headshots. 
 
 ## Wireframes
 
@@ -22,7 +16,23 @@ Within the headshot business, it´s common to use a one-page site.
 
 ## Manual testing procedures
 
-I have been using the Google Chrome dev tools to make sure the site looks good on different devices. I used the breakpoints in the dev tools and designed the page to be optimized at those and i also looked at what intervals it didn´t look so good in and then added a media querie there.
+I have been using the Google Chrome dev tools to make sure the site looks good on different screen-sizes. I designed the page to be optimized at the dev tools breakpoints and i also looked at what intervals it didn´t look so good in and then added a media querie there. I have tested the functionality myself and i also asked my girlfriend to try it out.
+
+### Header menu
+
+The links in the menu is supposed to take the user to different sections on the site. They work as expected when tested. 
+
+### Portfolio carousel
+
+It´s supposed to go around by itself like a carousel, and it does. We have also tried out the controls to see if they take the user manually from image to image as they should. They do that.
+
+### Pricing card buttons
+
+These buttons will take the user to external booking pages, one for each package. They worked as they should when we tested.
+
+### Footer links
+
+There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
 
 ## Acknowledgements
 
