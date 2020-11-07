@@ -12,6 +12,8 @@ The business is a small one, just me. The people that would be interested in my 
 
 ## Wireframes
 
+![A responsive collection of screens](assets/images/responsive.png)
+
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
 ## Manual testing procedures
