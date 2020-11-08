@@ -12,13 +12,22 @@ For my **first milestone project** i wanted to make a website that i can use for
 
 The business is a small one, just me. The people that would be interested in my services are actors, professionals with a LinkedIn profile, writers, journalists and maybe even people active on dating sites. For example, an actor need to showcase him/her when applying for jobs, so they need good headshots. 
 
+#### Company Goals and needs
+
+For the company, it´s about showcasing the images and attract new clients. I want to show them i take good images, that other people like what i do and that i am worthy of their trust.
+
+#### Client goals and needs
+
+There are loads of photographers out there. When potential clients come to my site, they need to be able to form an opinion on how good images i take and how my prices compare to the competition. It´s also important that they can see where i am located. Those things in particular need to be very visible to them.
+
+
 ## Wireframes
 
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
 ## Features
 
-Potential clients can look at my work and book a session. They can also contact me via email, phone or reach out on social media. For the company, it´s about showcasing the images and attract new clients.
+Potential clients can look at my work and book a session. They can also contact me via email, phone or reach out on social media. 
 
 ## Manual testing procedures
 
