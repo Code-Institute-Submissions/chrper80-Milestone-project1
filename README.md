@@ -16,6 +16,10 @@ The business is a small one, just me. The people that would be interested in my 
 
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
+## Features
+
+Potential clients can look at my work and book a session. They can also contact me via email, phone or reach out on social media. For the company, it´s about showcasing the images and attract new clients.
+
 ## Manual testing procedures
 
 I have been using the Google Chrome dev tools to make sure the site looks good on different screen-sizes. I designed the page to be optimized at the dev tools breakpoints and i also looked at what intervals it didn´t look so good in and then added a media querie there. I have tested the functionality myself and i also asked my girlfriend to try it out.
