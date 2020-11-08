@@ -39,6 +39,8 @@ I also used Lighthouse in dev tools. It gave me the information that my performa
 
 ![A screenshot from Lighthouse in Devtools](assets/images/Capture.PNG)
 
+I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html.
+
 ### Header menu
 
 The links in the menu is supposed to take the user to different sections on the site. They work as expected when tested. 
@@ -58,6 +60,46 @@ I put required on all the fields and the consent checkbox. Everything works as i
 ### Footer links
 
 There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
+
+## Deployment
+
+### Signing up to Github
+
+1. Go to [github.com](https://github.com/)
+2. Sign up
+3. Github will now create your account
+4. Choose a plan
+5. Verify your email
+
+### Installing the chrome extension
+
+To make life easier, install [this Gitpod browser extension](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) in your Chrome browser.
+
+### Creating a new Gitpod workspace and start coding
+
+1. Go the [repo](https://github.com/chrper80/Milestone-project1)
+2. Click the green button with "Gitpod" written on it
+3. A new Gitpod workspace will now be created
+4. Copy the source code and paste it in your new workspace
+
+### Getting back to your workspace
+
+Don´t use the green button more then once, because every time you push it, a new workspace will be created. Go via the [Gitpod page](https://www.gitpod.io/).
+
+### Saving to Github via the cli
+
+1. Write: git add, followed by the file you want to add
+2. Write: git commit -m "text that describes what changes you made"
+3. Write: git push, and it will be delivered to github
+
+### Deployment of the site on Githup Pages
+
+1. Go to the [Github repo](https://github.com/chrper80/Milestone-project1)
+2. Go to settings
+3. Go down to Github pages
+4. Choose the master branch and save
+5. It can be a little slow to build the page, so don´t worry if it takes 15 min or more
+6. Sometimes it can need a little "kick". I learned from a tutor to use this command in Gitpod cli: git commit -m "Restarting GH Pages build" --allow-empty. It makes Github start building the page again
 
 ## Acknowledgements
 
