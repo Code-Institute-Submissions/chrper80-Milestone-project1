@@ -49,7 +49,7 @@ It´s supposed to go around by itself like a carousel, and it does. We have also
 
 ### Pricing card buttons
 
-These buttons will take the user to external booking pages, one for each package. They worked as they should when we tested.
+These buttons will take the user to external booking pages, one for each package. They worked as they should when we tested. The external booking i use is called [Accuity scheduling](https://acuityscheduling.com/?kw=YToxOTMzNDMwNg%3D%3D).
 
 ### The contact form
 
@@ -61,9 +61,11 @@ There is a navigation menu, a contact menu and links to social media. When teste
 
 ## Acknowledgements
 
-The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
+The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/).
 
-The fine folks at [Google](https://www.google.se/maps/place/Norra+Sj%C3%B6bogatan+34,+506+43+Bor%C3%A5s/@57.7522864,12.9419388,17z/data=!3m1!4b1!4m5!3m4!1s0x465aa72b07460935:0xad92acce2e44efd9!8m2!3d57.7522864!4d12.9441275) has provided the map i use to show the studio location.
+[Google maps](https://www.google.se/maps/place/Norra+Sj%C3%B6bogatan+34,+506+43+Bor%C3%A5s/@57.7522864,12.9419388,17z/data=!3m1!4b1!4m5!3m4!1s0x465aa72b07460935:0xad92acce2e44efd9!8m2!3d57.7522864!4d12.9441275) is where i found the code with the map i use to show the studio location.
+
+I have also used fonts from [Google fonts](https://fonts.google.com/) and icons from [Font awsome](https://fontawesome.com/).
 
 My mentor [Excellence Ilesanmi](https://github.com/lon-io), has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
 
