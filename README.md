@@ -36,6 +36,10 @@ It´s supposed to go around by itself like a carousel, and it does. We have also
 
 These buttons will take the user to external booking pages, one for each package. They worked as they should when we tested.
 
+### The contact form
+
+I put required on all the fields and the consent checkbox. Everything works as it should and if something is missing there will come a little pop up message. 
+
 ### Footer links
 
 There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
