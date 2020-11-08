@@ -1,6 +1,6 @@
 # Website for headshot photography business "Christians Photo"
 
-![A responsive collection](assets/images/responsive.png)
+![A responsive mockup scene](assets/images/responsive-mockup-scene.png)
 
 ## About
 
