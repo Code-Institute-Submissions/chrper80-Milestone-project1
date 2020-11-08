@@ -1,700 +1,709 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-
-*{
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-family: "Lato", gill sans;
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", gill sans;
 }
 
-h1{
-    font-size: 36px;
+h1 {
+  font-size: 36px;
 }
 
-h2{
-    font-size: 24px;
-    color: rgb(95,95,95);
+h2 {
+  font-size: 24px;
+  color: rgb(95, 95, 95);
 }
 
-header{ /*Header*/
+/*Header*/
+header {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+/*The text under the site heading*/
+header p {
+  font-size: 1.313rem;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  background-color: rgb(95, 95, 95);
+  word-spacing: 2px;
+}
+
+/*The menu items*/
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 1rem;
+}
+
+header a:hover {
+  color: white;
+}
+
+/*Portfolio*/
+.my-portfolio {
+  text-align: center;
+  margin: 15px auto 0 auto;
+  max-width: 400px;
+}
+
+.my-portfolio h2 {
+  margin-bottom: 10px;
+}
+
+/*Pricing cards*/
+.pricing-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#prices h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pricing-card {
+  width: 280px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 1.2rem;
+}
+
+.pricing-card-header {
+  background-color: rgb(95, 95, 95);
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.pricing-card:hover {
+  transform: scale(1.02);
+}
+
+.pricing-card-body {
+  height: 200px;
+  background-color: rgb(238, 238, 238);
+}
+
+.pricing-card-button {
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgb(95, 95, 95);
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+}
+
+.pricing-card-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.pricing-card-button:hover {
+  transform: scale(1.02);
+}
+
+.pricing-card-body ul {
+  padding-top: 12px;
+  list-style: none;
+}
+
+/*Testimonials*/
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-heading {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card {
+  width: 280px;
+  text-align: center;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.testimonial-card img {
+  height: 280px;
+}
+
+.testimonial-body {
+  background-color: rgb(238, 238, 238);
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.testimonial-body p {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/*Contact form*/
+.form-container {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*The checkbox for the consent*/
+#checkbox {
+  display: inline-block;
+  width: 50px;
+}
+
+.button-form {
+  background-color: rgb(95, 95, 95);
+  color: white;
+}
+
+.button-form:hover {
+  transform: scale(1.02);
+}
+
+/*Map. Copy pasted code from Google maps*/
+.map-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.map {
+  width: 280px;
+  height: 280px;
+  position: static;
+}
+
+.map-container h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: rgb(95, 95, 95);
+  height: 150px;
+  margin: 40px auto 0 auto;
+  padding-top: 20px;
+  width: 280px;
+}
+
+.footer ul {
+  list-style: none;
+  word-spacing: 5px;
+  margin-left: 10px;
+}
+
+.footer li {
+  display: inline-block;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer a {
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media (min-width: 375px) {
+  header {
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
-}
+  }
 
-header p{ /*The text under the site heading*/
+  header p {
     font-size: 1.313rem;
-}
+  }
 
-header ul{
+  header ul {
     list-style: none;
     text-align: center;
-    background-color: rgb(95,95,95);
+    background-color: rgb(95, 95, 95);
     word-spacing: 2px;
-}
+  }
 
-header li{/*The menu items*/
+  header li {
     display: inline-block;
-}
+  }
 
-header a{
+  header a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 1rem;
-}
+  }
 
-header a:hover{
+  header a:hover {
     color: white;
-}
+  }
 
-.my-portfolio{/*Portfolio*/
+  .my-portfolio {
     text-align: center;
     margin: 15px auto 0 auto;
     max-width: 400px;
-}
+  }
 
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
-}
+  }
 
-.pricing-cards-container{/*Pricing cards*/
+  .pricing-cards-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
-    width: 280px;
+  .pricing-card {
+    width: 330px;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 5px 5px 5px grey;
     font-size: 1.2rem;
-}
+  }
 
-.pricing-card-header{
-    background-color: blue;
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 1.5rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 200px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{/*Testimonials*/
+  .testimonials-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 280px; 
+  .testimonial-card {
+    width: 330px;
     text-align: center;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
-}
+    box-shadow: 5px 5px 5px grey;
+  }
 
-.testimonial-card img{
-    height: 280px;
-}
+  .testimonial-card img {
+    height: 330px;
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 120px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1rem;
-}
+  }
 
-.form-container{/*Contact form*/
-    width: 280px;
+  .form-container {
+    width: 330px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 10px;
     margin-bottom: 10px;
-}
+  }
 
-#checkbox{/*The checkbox for the consent*/
+  #checkbox {
     display: inline-block;
     width: 50px;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{/*Map. Copy pasted code from Google maps*/
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
-    width: 280px;
-    height: 280px;
-    position: static;
-}
-
-.map-container h2{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.footer{/*Footer*/
-    background-color: rgb(95,95,95);
-    height: 150px;
-    margin: 40px auto 0 auto;
-    padding-top: 20px;
-    width: 280px;
-}
-
-.footer ul{
-    list-style: none;
-    word-spacing: 5px;
-    margin-left: 10px;
-}
-
-.footer li{
-    display: inline-block;
-    color: white;
-    font-size: 0.8rem;
-}
-
-.footer a{
-    color: rgb(201, 201, 201);
-    text-decoration: none;
-    font-size: 0.7rem;
-}
-
-.footer a:hover{
-    text-decoration: underline;
-    color: white;
-}
-
-@media(min-width: 375px){
-    
-
-header{
-    background-color: white;
-    text-align: center;
-    width: 100%;
-    padding-top: 15px;
-}
-
-header p{
-    font-size: 1.313rem;
-}
-
-header ul{
-    list-style: none;
-    text-align: center;
-    background-color: rgb(95,95,95);
-    word-spacing: 2px;
-}
-
-header li{
-    display: inline-block;
-}
-
-header a{
-    text-decoration: none;
-    color: white;
-    font-family: Roboto;
-    font-size: 1rem;
-}
-
-header a:hover{
-    color: white;
-}
-
-.my-portfolio{
-    text-align: center;
-    margin: 15px auto 0 auto;
-    max-width: 400px;
-}
-
-.my-portfolio h2{
-    margin-bottom: 10px;
-}
-
-.pricing-cards-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-#prices h2{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.pricing-card{
-    width: 330px;
-    margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
-    font-size: 1.2rem;
-}
-
-.pricing-card-header{
-    background-color: blue;
-    padding: 10px;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.pricing-card:hover{
-    transform: scale(1.02)
-}
-
-.pricing-card-body{
-    height: 200px;
-    background-color: rgb(238, 238, 238);
-}
-
-.pricing-card-button{
-    padding: 8px;
-    box-sizing: border-box;
-    background-color: blue;
-    border-radius: 15px;
-    color: white;
-    font-size: 1rem;
-}
-
-.pricing-card-button:hover{
-    transform: scale(1.02);
-}
-
-.pricing-card-body ul{
-    padding-top: 12px;
-    list-style: none;
-}
-
-.testimonials-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.testimonials-heading{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.testimonial-card{
-    width: 330px; 
-    text-align: center;
-    margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
-}
-
-.testimonial-card img{
-    height: 330px;
-}
-
-.testimonial-body{
-    background-color: rgb(238, 238, 238);
-    height: 120px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.testimonial-body p{
-    padding: 10px;
-    font-size: 1rem;
-}
-
-.form-container{
-    width: 330px;
-    margin: 0 auto;
-}
-
-.form-container h2{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.form input, .form textarea{
-    width: 100%;
-    border: solid 1px black;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#checkbox{
-    display: inline-block;
-    width: 50px;
-}
-
-.button-form{
-    background-color: blue;
-    color: white;
-}
-
-.button-form:hover{
-    transform: scale(1.02);
-}
-
-.map-container{
-    text-align: center;
-    margin: 0 auto;
-}
-
-.map{
+  .map {
     width: 330px;
     height: 330px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 150px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 330px;
-}
+  }
 
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 5px;
     margin-left: 10px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
     font-size: 0.9rem;
-}
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
     font-size: 0.8rem;
-}
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
-}
+  }
 }
 
-@media(min-width: 425px){
-
-h1{
+@media (min-width: 425px) {
+  h1 {
     font-size: 37.8px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 25.2px;
-}
+  }
 
-header{
+  header {
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
-}
+  }
 
-header p{
+  header p {
     font-size: 1.313rem;
-}
+  }
 
-header ul{
+  header ul {
     list-style: none;
     text-align: center;
-    background-color: rgb(95,95,95);
+    background-color: rgb(95, 95, 95);
     word-spacing: 2px;
-}
+  }
 
-header li{
+  header li {
     display: inline-block;
-}
+  }
 
-header a{
+  header a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 1rem;
-}
+  }
 
-header a:hover{
+  header a:hover {
     color: white;
-}
+  }
 
-.my-portfolio{
+  .my-portfolio {
     text-align: center;
     margin: 15px auto 0 auto;
     max-width: 400px;
-}
+  }
 
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
-}
+  }
 
-.pricing-cards-container{
+  .pricing-cards-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
+  .pricing-card {
     width: 370px;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 5px 5px 5px grey;
     font-size: 1.2rem;
-}
+  }
 
-.pricing-card-header{
-    background-color: blue;
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 1.5rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 200px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{
+  .testimonials-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 370px; 
+  .testimonial-card {
+    width: 370px;
     text-align: center;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 10px grey;
-}
+    box-shadow: 5px 5px 5px grey;
+  }
 
-.testimonial-card img{
+  .testimonial-card img {
     height: 370px;
-}
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 140px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1.2rem;
-}
+  }
 
-.form-container{
+  .form-container {
     width: 370px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 10px;
     margin-bottom: 10px;
-}
+  }
 
-#checkbox{
+  #checkbox {
     display: inline-block;
     width: 50px;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
+  .map {
     width: 370px;
     height: 270px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 150px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 370px;
-}
+  }
 
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 5px;
     margin-left: 10px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
     font-size: 1rem;
-}
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
     font-size: 0.9rem;
-}
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
+  }
 }
 
-}
-
-
-@media(min-width: 600px){
-
-h1{
+@media (min-width: 600px) {
+  h1 {
     font-size: 39.6px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 26.4px;
-}
+  }
 
-.my-portfolio{
+  .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 550px;
+  }
 
-}
-
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
-}
+  }
 
-.pricing-cards-container{
+  .pricing-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -702,56 +711,56 @@ h2{
     text-align: center;
     width: 500px;
     margin: 0 auto;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
+  .pricing-card {
     flex: 140px;
     margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 5px 5px 5px grey;
     font-size: 1.2rem;
-}
+  }
 
-.pricing-card-header{
-    background-color: blue;
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 1.5rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 200px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{
+  .testimonials-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -759,169 +768,167 @@ h2{
     justify-content: space-between;
     width: 500px;
     margin: 0 auto;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 230px; 
+  .testimonial-card {
+    width: 230px;
     text-align: center;
     margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-}
+    box-shadow: 5px 5px 5px grey;
+  }
 
-.testimonial-card img{
+  .testimonial-card img {
     height: 230px;
-}
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 140px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1rem;
-}
+  }
 
-.form-container{
+  .form-container {
     width: 480px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 10px;
     margin-bottom: 10px;
-}
+  }
 
-#checkbox{
+  #checkbox {
     display: inline-block;
     width: 50px;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
+  .map {
     width: 480px;
     height: 280px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 250px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 480px;
+  }
 
-}
-
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 5px;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
     font-size: 1.3rem;
-}
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
     font-size: 1rem;
-}
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
-}
+  }
 }
 
-@media(min-width: 768px){
-
-header{
+@media (min-width: 768px) {
+  header {
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
-}
+  }
 
-header p{
+  header p {
     font-size: 1.6rem;
-}
+  }
 
-header ul{
+  header ul {
     list-style: none;
     text-align: center;
-    background-color: rgb(95,95,95);
+    background-color: rgb(95, 95, 95);
     word-spacing: 5px;
-}
+  }
 
-header li{
+  header li {
     display: inline-block;
-}
+  }
 
-header a{
+  header a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 1.2rem;
-}
+  }
 
-header a:hover{
+  header a:hover {
     color: white;
-}
+  }
 
-.my-portfolio{
+  .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
     max-width: 480px;
+  }
 
-}
-
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
-}
+  }
 
-.pricing-cards-container{
+  .pricing-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -929,56 +936,56 @@ header a:hover{
     text-align: center;
     width: 650px;
     margin: 0 auto;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
+  .pricing-card {
     flex: 140px;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-    font-size: 1.2rem;
-}
 
-.pricing-card-header{
-    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 1.2rem;
+  }
+
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 1.5rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 200px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{
+  .testimonials-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -986,177 +993,175 @@ header a:hover{
     justify-content: space-between;
     width: 650px;
     margin: 0 auto;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 290px; 
+  .testimonial-card {
+    width: 290px;
     text-align: center;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-}
 
-.testimonial-card img{
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .testimonial-card img {
     height: 290px;
-}
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 140px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1rem;
-}
+  }
 
-.form-container{
+  .form-container {
     width: 650px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 10px;
     margin-bottom: 10px;
-}
+  }
 
-#checkbox{
+  #checkbox {
     display: inline-block;
     width: 50px;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
+  .map {
     width: 650px;
     height: 280px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 250px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 650px;
+  }
 
-}
-
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 10px;
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
-    font-size: 1.3rem;
-}
+    font-size: 1.1rem;
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
-    font-size: 1rem;
-}
+    font-size: 0.9rem;
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
-}
+  }
 }
 
-@media(min-width: 1024px){
-
-h1{
+@media (min-width: 1024px) {
+  h1 {
     font-size: 41.4px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 27.6px;
-}
+  }
 
-header{
+  header {
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
-}
+  }
 
-header p{
+  header p {
     font-size: 1.7rem;
-}
+  }
 
-header ul{
+  header ul {
     list-style: none;
     text-align: center;
-    background-color: rgb(95,95,95);
-    word-spacing: 5px;
-}
+    background-color: rgb(95, 95, 95);
+    word-spacing: 10px;
+  }
 
-header li{
+  header li {
     display: inline-block;
-}
+  }
 
-header a{
+  header a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 1.5rem;
-}
+  }
 
-header a:hover{
+  header a:hover {
     color: white;
-}
+  }
 
-.my-portfolio{
+  .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
-    max-width: 680px;
+    max-width: 550px;
+  }
 
-}
-
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
-}
+  }
 
-.pricing-cards-container{
+  .pricing-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1164,56 +1169,56 @@ header a:hover{
     text-align: center;
     width: 820px;
     margin: 0 auto;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
+  .pricing-card {
     flex: 220px;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-    font-size: 1.5rem;
-}
 
-.pricing-card-header{
-    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 1.5rem;
+  }
+
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 1.8rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 250px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1.5rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{
+  .testimonials-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1221,193 +1226,192 @@ header a:hover{
     justify-content: space-between;
     width: 820px;
     margin: 0 auto;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 380px; 
+  .testimonial-card {
+    width: 380px;
     text-align: center;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-}
 
-.testimonial-card img{
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .testimonial-card img {
     height: 380px;
-}
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 170px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1.5rem;
-}
+  }
 
-.form-container{
+  .form-container {
     width: 820px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 20px;
     margin-bottom: 15px;
     font-size: 1.5rem;
-}
+  }
 
-#checkbox{
+  #checkbox {
     display: inline-block;
     width: 50px;
     height: 20px;
-}
+  }
 
-label{
+  label {
     font-size: 1.5rem;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
+  .map {
     width: 820px;
     height: 380px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 290px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 820px;
+  }
 
-}
-
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 15px;
     margin-left: 40px;
     margin-top: 35px;
     margin-bottom: 30px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
-    font-size: 1.6rem;
-}
+    font-size: 1.3rem;
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
-    font-size: 1.4rem;
-}
+    font-size: 1rem;
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
-}
+  }
 }
 
-@media(min-width: 1440px){
-
-body{
+@media (min-width: 1440px) {
+  body {
     max-width: 1440px;
     margin: 0 auto;
-    box-shadow: 5px 5px 5px rgba(95,95,95,0.2), -5px -5px 5px rgba(95,95,95,0.2);
-}
-h1{
+    box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.2),
+      -5px -5px 5px rgba(95, 95, 95, 0.2);
+  }
+  h1 {
     font-size: 54px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 33.6px;
-}
+  }
 
-header{
+  header {
     background-color: white;
     text-align: center;
     width: 100%;
     padding-top: 15px;
-}
+  }
 
-header h1{
+  header h1 {
     letter-spacing: 2px;
-}
+  }
 
-header p{
+  header p {
     font-size: 2.2rem;
-}
+  }
 
-header ul{
+  header ul {
     list-style: none;
     text-align: center;
-    background-color: rgb(95,95,95);
+    background-color: rgb(95, 95, 95);
     word-spacing: 35px;
-}
+  }
 
-header li{
+  header li {
     display: inline-block;
-}
+  }
 
-header a{
+  header a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 2rem;
-}
+  }
 
-header a:hover{
+  header a:hover {
     color: white;
-}
+  }
 
-.my-portfolio{
+  .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
-    max-width: 750px;
+    max-width: 700px;
+  }
 
-}
-
-.my-portfolio h2{
+  .my-portfolio h2 {
     margin-bottom: 10px;
     margin-top: 30px;
-}
+  }
 
-.pricing-cards-container{
+  .pricing-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1415,56 +1419,56 @@ header a:hover{
     text-align: center;
     width: 1200px;
     margin: 0 auto;
-}
+  }
 
-#prices h2{
+  #prices h2 {
     margin-top: 35px;
     margin-bottom: 10px;
     text-align: center;
-}
+  }
 
-.pricing-card{
+  .pricing-card {
     flex: 350px;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-    font-size: 1.9rem;
-}
 
-.pricing-card-header{
-    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 1.9rem;
+  }
+
+  .pricing-card-header {
+    background-color: rgb(95, 95, 95);
     padding: 10px;
     font-size: 2.4rem;
     color: white;
-}
+  }
 
-.pricing-card:hover{
-    transform: scale(1.02)
-}
+  .pricing-card:hover {
+    transform: scale(1.02);
+  }
 
-.pricing-card-body{
+  .pricing-card-body {
     height: 300px;
     background-color: rgb(238, 238, 238);
-}
+  }
 
-.pricing-card-button{
+  .pricing-card-button {
     padding: 8px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
     font-size: 1.7rem;
-}
+  }
 
-.pricing-card-button:hover{
+  .pricing-card-button:hover {
     transform: scale(1.02);
-}
+  }
 
-.pricing-card-body ul{
+  .pricing-card-body ul {
     padding-top: 12px;
     list-style: none;
-}
+  }
 
-.testimonials-container{
+  .testimonials-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1472,128 +1476,124 @@ header a:hover{
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-}
+  }
 
-.testimonials-heading{
+  .testimonials-heading {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 10px;
-}
+  }
 
-.testimonial-card{
-    width: 560px; 
+  .testimonial-card {
+    width: 560px;
     text-align: center;
-    margin: 0 10px 0 10px;
-    box-shadow: 10px 10px 10px grey;
-}
 
-.testimonial-card img{
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .testimonial-card img {
     height: 560px;
-}
+  }
 
-.testimonial-body{
+  .testimonial-body {
     background-color: rgb(238, 238, 238);
     height: 220px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.testimonial-body p{
+  .testimonial-body p {
     padding: 10px;
     font-size: 1.7rem;
-}
+  }
 
-.form-container{
+  .form-container {
     width: 800px;
     margin: 0 auto;
-}
+  }
 
-.form-container h2{
+  .form-container h2 {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 10px;
-}
+  }
 
-.form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 100%;
     border: solid 1px black;
     padding: 20px;
     margin-bottom: 15px;
     font-size: 1.5rem;
-}
+  }
 
-#checkbox{
+  #checkbox {
     display: inline-block;
     width: 50px;
     height: 20px;
-}
+  }
 
-label{
+  label {
     font-size: 1.5rem;
-}
+  }
 
-.button-form{
-    background-color: blue;
+  .button-form {
+    background-color: rgb(95, 95, 95);
     color: white;
-}
+  }
 
-.button-form:hover{
+  .button-form:hover {
     transform: scale(1.02);
-}
+  }
 
-.map-container{
+  .map-container {
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.map{
+  .map {
     width: 1200px;
     height: 420px;
     position: static;
-}
+  }
 
-.map-container h2{
+  .map-container h2 {
     margin-top: 35px;
     margin-bottom: 10px;
-}
+  }
 
-.footer{
-    background-color: rgb(95,95,95);
+  .footer {
+    background-color: rgb(95, 95, 95);
     height: 340px;
     margin: 40px auto 0 auto;
     padding-top: 20px;
     width: 1200px;
+  }
 
-}
-
-.footer ul{
+  .footer ul {
     list-style: none;
     word-spacing: 20px;
     margin-left: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
-}
+  }
 
-.footer li{
+  .footer li {
     display: inline-block;
     color: white;
-    font-size: 2rem;
-}
+    font-size: 1.5rem;
+  }
 
-.footer a{
+  .footer a {
     color: rgb(201, 201, 201);
     text-decoration: none;
-    font-size: 1.9rem;
-}
+    font-size: 1.3rem;
+  }
 
-.footer a:hover{
+  .footer a:hover {
     text-decoration: underline;
     color: white;
+  }
 }
-}
-
-
-
-
