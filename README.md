@@ -63,7 +63,7 @@ There is a navigation menu, a contact menu and links to social media. When teste
 
 The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/). They make really nice things!
 
-The fine folks at Google has provided the map i use to show the studio location.
+The fine folks at [Google](https://www.google.se/maps/place/Norra+Sj%C3%B6bogatan+34,+506+43+Bor%C3%A5s/@57.7522864,12.9419388,17z/data=!3m1!4b1!4m5!3m4!1s0x465aa72b07460935:0xad92acce2e44efd9!8m2!3d57.7522864!4d12.9441275) has provided the map i use to show the studio location.
 
 My mentor [Excellence Ilesanmi](https://github.com/lon-io), has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
 
