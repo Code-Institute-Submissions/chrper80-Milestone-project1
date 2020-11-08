@@ -22,7 +22,7 @@ Potential clients can look at my work and book a session. They can also contact 
 
 ## Manual testing procedures
 
-I have been using the Google Chrome dev tools to make sure the site looks good on different screen-sizes. I designed the page to be optimized at the dev tools breakpoints and i also looked at what intervals it didn´t look so good in and then added a media querie there. I have tested the functionality myself and i also asked my girlfriend to try it out.
+I have been using the Google Chrome dev tools to make sure the site looks good on different devices/screens. I designed the page to be optimized at the dev tools breakpoints and i also looked at what intervals it didn´t look so good in and then added a media querie there. I have tested the functionality myself and i also asked my girlfriend to try it out. I also used Lighthouse in dev tools. It gave me the information that my performance is at 74, and that i could take a look at the sizing of images. When we try it out it´s quick enough, so for now i let it be. The image sizing and best practice with images is something i will have a look at more in depth for future projects.
 
 ### Header menu
 
