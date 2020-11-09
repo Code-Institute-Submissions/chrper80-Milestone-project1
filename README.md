@@ -8,6 +8,10 @@
 
 For my **first milestone project** i wanted to make a website that i can use for my **headshots business**. The reason for this is that i have many nice pictures that i can use for free. The images are from my portfolio and the people in there have all given their written permission that i can use the images for portfolio and social media. Within the headshot business, it´s common to use a one-page site. I wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
 
+### Accessibility
+
+To make it as accessible as possible i use alt text for the images and i tried to make it clean and high contrast.
+
 ### The business
 
 The business is a small one, just me. The people that would be interested in my services are actors, professionals with a LinkedIn profile, writers, journalists and maybe even people active on dating sites. For example, an actor need to showcase him/her when applying for jobs, so they need good headshots. 
