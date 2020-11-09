@@ -47,6 +47,10 @@ I also used Lighthouse in dev tools. It gave me the information that my performa
 
 ![A screenshot from Lighthouse in Devtools](assets/images/Capture.PNG)
 
+### Validation
+
+There is still one warning left in Jigsaw when validating the css. "Imported style sheets are not reviewed for direct input or file upload", translated from Swedish. I asked a tutor about it who said that since i only have to validate my own stylesheat i can ignore that warning and submit my project, but that i make a comment about in the README.
+
 ### Header menu
 
 The links in the menu is supposed to take the user to different sections on the site. They work as expected when tested. 
