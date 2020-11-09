@@ -127,7 +127,9 @@ The portfolio carousel is just copy pasted from [Bootstrap](https://getbootstrap
 
 [Google maps](https://www.google.se/maps/place/Norra+Sj%C3%B6bogatan+34,+506+43+Bor%C3%A5s/@57.7522864,12.9419388,17z/data=!3m1!4b1!4m5!3m4!1s0x465aa72b07460935:0xad92acce2e44efd9!8m2!3d57.7522864!4d12.9441275) is where i found the code with the map i use to show the studio location.
 
-I have also used the fonts [Lato](https://fonts.google.com/specimen/Lato?query=Lato) and [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) from [Google fonts](https://fonts.google.com/) and icons from [Font awsome](https://fontawesome.com/). Links to Font awsome: [Euro icons](https://fontawesome.com/icons?d=gallery&q=Euro) [Facebook icons](https://fontawesome.com/icons?d=gallery&q=facebook) [Instagram icons](https://fontawesome.com/icons?d=gallery&q=instagram) 
+I have also used the fonts [Lato](https://fonts.google.com/specimen/Lato?query=Lato) and [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) from [Google fonts](https://fonts.google.com/) 
+
+I have used icons from [Font Awsome](https://fontawesome.com/). Links to Font Awsome: [Euro icons](https://fontawesome.com/icons?d=gallery&q=Euro), [Facebook icons](https://fontawesome.com/icons?d=gallery&q=facebook) and [Instagram icons](https://fontawesome.com/icons?d=gallery&q=instagram) 
 
 My mentor [Excellence Ilesanmi](https://github.com/lon-io), has done a great job in helping me in a good way. The mentoring sessions has been really helpful!
 
