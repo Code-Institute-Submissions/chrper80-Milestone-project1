@@ -33,7 +33,7 @@ Potential clients can look at my work and book a session. They can also contact 
 
 To make it as accessible as possible i use alt text for the images and i tried to make it clean and high contrast.
 
-### design
+### Design
 
 Within the headshot business, it´s common to use a one-page site. I wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
 
