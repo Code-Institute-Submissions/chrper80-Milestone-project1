@@ -61,7 +61,7 @@ These buttons will take the user to external booking pages, one for each package
 
 ### The contact form
 
-I put required on all the fields and the consent checkbox. Everything works as it should and if something is missing there will come a little pop up message. I used the same url that you guys used to dump the info in the form. 
+I put required on all the fields and the consent checkbox. Everything works as it should and if something is missing there will come a little pop up message. I used the same url that you guys used to dump the info in the form. There is a link to "terms of use" that doesn't go anywhere. The reason for this is that i haven't got a terms of use document yet.
 
 ### Footer links
 
