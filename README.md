@@ -47,8 +47,6 @@ I also used Lighthouse in dev tools. It gave me the information that my performa
 
 ![A screenshot from Lighthouse in Devtools](assets/images/Capture.PNG)
 
-I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html.
-
 ### Header menu
 
 The links in the menu is supposed to take the user to different sections on the site. They work as expected when tested. 
@@ -68,6 +66,10 @@ I put required on all the fields and the consent checkbox. Everything works as i
 ### Footer links
 
 There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
+
+### Bugs
+
+I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html. When i validated the html code, i got an error that <button> must not be descendent of <a>. It worked fine and looked good, but i had to change it. I then used a <div> with <a> as child element. It worked fine, but i had to do some steps to make it work. The <div> is a block level element so had to give it a proper width, because it takes all of the available space. I also had to center it with margin: 0 auto.
 
 ## Deployment
 
