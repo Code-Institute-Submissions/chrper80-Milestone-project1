@@ -4,7 +4,7 @@
   border: 0;
   padding: 0;
   margin: 0;
-  font-family: "Lato", gill sans;
+  font-family: "Lato", "gill sans";
 }
 
 h1 {
@@ -100,6 +100,11 @@ header a:hover {
   background-color: rgb(238, 238, 238);
 }
 
+.pricing-card-body a {
+  text-decoration: none;
+  color: white;
+}
+
 .pricing-card-button {
   padding: 8px;
   box-sizing: border-box;
@@ -107,11 +112,8 @@ header a:hover {
   border-radius: 15px;
   color: white;
   font-size: 1rem;
-}
-
-.pricing-card-button a {
-  text-decoration: none;
-  color: white;
+  width: 150px;
+  margin: 0 auto;
 }
 
 .pricing-card-button:hover {
@@ -213,6 +215,7 @@ header a:hover {
   margin-bottom: 10px;
 }
 
+/*Footer*/
 .footer {
   background-color: rgb(95, 95, 95);
   height: 150px;
@@ -245,6 +248,7 @@ header a:hover {
 }
 
 @media (min-width: 375px) {
+  /*Header*/
   header {
     background-color: white;
     text-align: center;
@@ -278,6 +282,7 @@ header a:hover {
     color: white;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 15px auto 0 auto;
@@ -288,6 +293,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: column;
@@ -342,6 +348,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: column;
@@ -379,6 +386,7 @@ header a:hover {
     font-size: 1rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 330px;
     margin: 0 auto;
@@ -398,6 +406,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -412,6 +421,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -428,6 +438,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 150px;
@@ -469,6 +480,7 @@ header a:hover {
     font-size: 25.2px;
   }
 
+  /*Header*/
   header {
     background-color: white;
     text-align: center;
@@ -502,6 +514,7 @@ header a:hover {
     color: white;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 15px auto 0 auto;
@@ -512,6 +525,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: column;
@@ -566,6 +580,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: column;
@@ -603,6 +618,7 @@ header a:hover {
     font-size: 1.2rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 370px;
     margin: 0 auto;
@@ -622,6 +638,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -636,6 +653,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -652,6 +670,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 150px;
@@ -693,6 +712,7 @@ header a:hover {
     font-size: 26.4px;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
@@ -703,6 +723,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: row;
@@ -760,6 +781,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: row;
@@ -801,6 +823,7 @@ header a:hover {
     font-size: 1rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 480px;
     margin: 0 auto;
@@ -820,6 +843,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -834,6 +858,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -850,6 +875,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 250px;
@@ -885,6 +911,7 @@ header a:hover {
 }
 
 @media (min-width: 768px) {
+  /*Header*/
   header {
     background-color: white;
     text-align: center;
@@ -918,6 +945,7 @@ header a:hover {
     color: white;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
@@ -928,6 +956,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: row;
@@ -985,6 +1014,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: row;
@@ -1026,6 +1056,7 @@ header a:hover {
     font-size: 1rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 650px;
     margin: 0 auto;
@@ -1045,6 +1076,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -1059,6 +1091,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -1075,6 +1108,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 250px;
@@ -1118,6 +1152,7 @@ header a:hover {
     font-size: 27.6px;
   }
 
+  /*Header*/
   header {
     background-color: white;
     text-align: center;
@@ -1151,6 +1186,7 @@ header a:hover {
     color: white;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
@@ -1161,6 +1197,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: row;
@@ -1179,7 +1216,6 @@ header a:hover {
 
   .pricing-card {
     flex: 220px;
-
     box-shadow: 5px 5px 5px grey;
     font-size: 1.5rem;
   }
@@ -1206,7 +1242,7 @@ header a:hover {
     background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .pricing-card-button:hover {
@@ -1218,6 +1254,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: row;
@@ -1259,6 +1296,7 @@ header a:hover {
     font-size: 1.5rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 820px;
     margin: 0 auto;
@@ -1279,6 +1317,7 @@ header a:hover {
     font-size: 1.5rem;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -1298,6 +1337,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -1314,6 +1354,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 290px;
@@ -1363,6 +1404,7 @@ header a:hover {
     font-size: 33.6px;
   }
 
+  /*Header*/
   header {
     background-color: white;
     text-align: center;
@@ -1400,6 +1442,7 @@ header a:hover {
     color: white;
   }
 
+  /*Portfolio*/
   .my-portfolio {
     text-align: center;
     margin: 0 auto 15px auto;
@@ -1411,6 +1454,7 @@ header a:hover {
     margin-top: 30px;
   }
 
+  /*Prices*/
   .pricing-cards-container {
     display: flex;
     flex-direction: row;
@@ -1429,7 +1473,6 @@ header a:hover {
 
   .pricing-card {
     flex: 350px;
-
     box-shadow: 5px 5px 5px grey;
     font-size: 1.9rem;
   }
@@ -1451,12 +1494,12 @@ header a:hover {
   }
 
   .pricing-card-button {
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
     background-color: rgb(95, 95, 95);
     border-radius: 15px;
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .pricing-card-button:hover {
@@ -1468,6 +1511,7 @@ header a:hover {
     list-style: none;
   }
 
+  /*Testimonials*/
   .testimonials-container {
     display: flex;
     flex-direction: row;
@@ -1509,6 +1553,7 @@ header a:hover {
     font-size: 1.7rem;
   }
 
+  /*Contact form*/
   .form-container {
     width: 800px;
     margin: 0 auto;
@@ -1529,6 +1574,7 @@ header a:hover {
     font-size: 1.5rem;
   }
 
+  /*Consent checkbox*/
   #checkbox {
     display: inline-block;
     width: 50px;
@@ -1548,6 +1594,7 @@ header a:hover {
     transform: scale(1.02);
   }
 
+  /*Studio location*/
   .map-container {
     text-align: center;
     margin: 0 auto;
@@ -1564,6 +1611,7 @@ header a:hover {
     margin-bottom: 10px;
   }
 
+  /*Footer*/
   .footer {
     background-color: rgb(95, 95, 95);
     height: 340px;
