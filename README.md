@@ -69,7 +69,7 @@ There is a navigation menu, a contact menu and links to social media. When teste
 
 ### Bugs
 
-I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html. When i validated the html code, i got an error that the button element must not be descendent of the a element. It worked fine and looked good, but i had to change it. I then used a div element with the a element as child. It worked fine, but i had to do some steps to make it work. The div element is a block level element so had to give it a proper width, because it takes all of the available space if i don't. I also had to center it with margin: 0 auto.
+I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html. When i validated the html code, i got an error that i can't use the a element inside the button element. It worked fine and looked good, but i had to change it. I then used a div element with the a element as child. It worked fine, but i had to do some steps to make it work. The div element is a block level element so had to give it a proper width, because it takes all of the available space if i don't. I also had to center it with margin: 0 auto.
 
 ## Deployment
 
@@ -87,7 +87,7 @@ To make life easier, install [this Gitpod browser extension](https://chrome.goog
 
 ### Creating a new Gitpod workspace and start coding
 
-1. Go the [repo](https://github.com/chrper80/Milestone-project1)
+1. Go to the [repo](https://github.com/chrper80/Milestone-project1)
 2. Click the green button with "Gitpod" written on it
 3. A new Gitpod workspace will now be created
 4. Copy the source code and paste it in your new workspace
