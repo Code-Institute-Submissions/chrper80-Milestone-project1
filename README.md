@@ -67,6 +67,10 @@ I put required on all the fields and the consent checkbox. Everything works as i
 
 There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
 
+### Can i use
+
+I used flexbox for my cards. I had some concerns that it might be to new to have support on all browsers. I checked on [Can i use](https://caniuse.com/?search=flexbox) and it seem to have a pretty good support among the browsers.
+
 ### Bugs
 
 I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html. When i validated the html code, i got an error that i can't use the a element inside the button element. It worked fine and looked good, but i had to change it. I then used a div element with the a element as child. It worked fine, but i had to do some steps to make it work. The div element is a block level element so had to give it a proper width, because it takes all of the available space if i don't. I also had to center it with margin: 0 auto.
