@@ -1,12 +1,12 @@
 # Website for headshot photography business "Christians Photo"
 
-![A responsive mockup scene](assets/images/responsive-mockup-scene.png)
+![A responsive mockup scene](assets/images/iphone-x-mockup-scene.png)
 
 ## About
 
 ### The idea
 
-For my **first milestone project** i wanted to make a website that i can use for my **headshots business**. The reason for this is that i have many nice pictures that i can use for free. The images are from my portfolio and the people in there have all given their written permission that i can use the images for portfolio and social media. Within the headshot business, it´s common to use a one-page site. I wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
+For my **first milestone project** i wanted to make a website that i can use for my **headshots business**. The reason for this is that i have many nice pictures that i can use for free. The images are from my portfolio and the people in there have all given their written permission that i can use the images for portfolio and social media. 
 
 ### The business
 
@@ -21,13 +21,21 @@ For the company, it´s about showcasing the images and attract new clients. I wa
 There are loads of photographers out there. When potential clients come to my site, they need to be able to form an opinion on how good images i take and how my prices compare to the competition. It´s also important that they can see where i am located. Those things in particular need to be very visible to them.
 
 
-## Wireframes
+### Wireframes
 
 [Follow this link to look at my wireframes](https://xd.adobe.com/view/a0422fe8-1a03-4167-9142-6dcc7f854fcb-f511/)
 
-## Features
+### Features
 
 Potential clients can look at my work and book a session. They can also contact me via email, phone or reach out on social media. 
+
+### Accessibility
+
+To make it as accessible as possible i use alt text for the images and i tried to make it clean and high contrast.
+
+### Design
+
+Within the headshot business, it´s common to use a one-page site. I wanted the site to look clean and professional, trustworthy. I think that the font **Lato**, is giving a professional, not to shouty, friendly and professional impression.
 
 ## Manual testing procedures
 
@@ -38,8 +46,6 @@ I have tested the functionality myself and i also asked my girlfriend to try it 
 I also used Lighthouse in dev tools. It gave me the information that my performance is at 74, and that i could take a look at the sizing of images. When we try it out on different devices it´s quick enough, so for now i let it be. The image sizing and best practice with images is something i will have a look at more in depth for future projects.
 
 ![A screenshot from Lighthouse in Devtools](assets/images/Capture.PNG)
-
-I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html.
 
 ### Header menu
 
@@ -61,6 +67,10 @@ I put required on all the fields and the consent checkbox. Everything works as i
 
 There is a navigation menu, a contact menu and links to social media. When tested, they worked fine.
 
+### Bugs
+
+I validated the code in [Jigsaw](https://jigsaw.w3.org/css-validator/) for the css, and the [W3c markup validation service](https://validator.w3.org/) for the html. When i validated the html code, i got an error that i can't use the a element inside the button element. It worked fine and looked good, but i had to change it. I then used a div element with the a element as child. It worked fine, but i had to do some steps to make it work. The div element is a block level element so had to give it a proper width, because it takes all of the available space if i don't. I also had to center it with margin: 0 auto.
+
 ## Deployment
 
 ### Signing up to Github
@@ -77,7 +87,7 @@ To make life easier, install [this Gitpod browser extension](https://chrome.goog
 
 ### Creating a new Gitpod workspace and start coding
 
-1. Go the [repo](https://github.com/chrper80/Milestone-project1)
+1. Go to the [repo](https://github.com/chrper80/Milestone-project1)
 2. Click the green button with "Gitpod" written on it
 3. A new Gitpod workspace will now be created
 4. Copy the source code and paste it in your new workspace
